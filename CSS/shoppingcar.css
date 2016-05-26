@@ -1,0 +1,65 @@
+.no-goods {
+  height: 180px;
+  width: 640px;
+  background: #ffe285;
+  margin-left: 40px;
+  border-radius: 5px;
+}
+.no-goods p {
+  padding: 10px;
+}
+.has-goods {
+  height: 100px;
+  width: 640px;
+  background: #ffe285;
+  margin-left: 40px;
+  border-radius: 5px;
+  display: none;
+}
+.has-goods p {
+  padding: 10px;
+}
+table {
+  width: 600px;
+  margin-top: 20px;
+  margin-left: 60px;
+  border: 1px solid gray;
+}
+table tr td,
+table tr th {
+  font-size: 12px;
+  border: 1px solid gray;
+  text-align: center;
+}
+table tr th {
+  background: #ededed;
+  height: 50px;
+}
+.reg {
+  display: none;
+  width: 620px;
+  height: 220px;
+  border-bottom: 1px dashed gray;
+  margin-left: 40px;
+  margin-top: 40px;
+  padding: 10px;
+}
+.reg ul li {
+  float: left;
+  height: 30px;
+  width: 200px;
+  background: #e0e0e0;
+  text-align: center;
+  line-height: 30px;
+}
+.reg ul .selected-li {
+  color: white;
+  font-weight: 700;
+  background: #cc6600;
+}
+.reg div p {
+  height: 120px;
+  width: 400px;
+  padding: 0px;
+  background: #e0e0e0;
+}

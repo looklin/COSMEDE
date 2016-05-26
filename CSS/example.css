@@ -1,0 +1,119 @@
+section .main-top {
+  height: 1500px;
+}
+section .main-top aside {
+  height: 1000px;
+}
+section .main-top aside h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+section .main-top aside ul li a {
+  font-size: 12px;
+}
+section .main-top aside ol li {
+  list-style-type: decimal;
+  width: 160px;
+  margin: 5px;
+}
+section .main-top aside ol li a {
+  font-size: 13px;
+  color: #93846f;
+}
+section .main-top aside ol li a:hover {
+  color: #990063;
+}
+section .main-top aside #ol_2 li {
+  list-style-type: disc;
+}
+section .main-top .main-inner {
+  height: 1460px;
+  border-radius: 15px;
+}
+section .main-top #nav-4 {
+  width: 720px;
+  border: 1px solid black;
+  height: 50px;
+  margin-top: -5px;
+  background: #93846f;
+  margin-bottom: 5px;
+}
+section .main-top #nav-4 li {
+  float: left;
+  padding-top: 6px;
+  height: 44px;
+  width: 203.5px;
+  padding-left: 24px;
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+  background: #93846f;
+}
+section .main-top #nav-4 li i {
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 15px;
+}
+section .main-top #nav-4 li:hover {
+  background: #9f927f;
+}
+section .main-top #show-products {
+  background: white;
+}
+section .main-top #show-products dl {
+  float: left;
+  width: 180px;
+  height: 380px;
+  margin-top: 10px;
+}
+section .main-top #show-products dl dt {
+  width: 170px;
+  height: 220px;
+}
+section .main-top #show-products dl dt > img {
+  margin-left: 20px;
+}
+section .main-top #show-products dl dd {
+  position: relative;
+}
+section .main-top #show-products dl dd a {
+  display: block;
+  margin-left: 20px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #93846f;
+}
+section .main-top #show-products dl dd a b {
+  color: #99006c;
+}
+section .main-top #show-products dl dd a:hover {
+  color: #a5008c;
+}
+section .main-top #show-products dl dd p {
+  margin-top: 40px;
+  margin-left: 5px;
+  padding-top: 5px;
+  top: 30px;
+  position: absolute;
+  height: 70px;
+  width: 150px;
+  border-top: 1px solid #bfbfbf;
+}
+section .main-top #show-products .look-more {
+  float: right;
+  font-size: 12px;
+  color: #93846f;
+  margin-right: 20px;
+}
+section .main-middle {
+  height: 120px;
+  width: 730px;
+  margin-top: 30px;
+  border-radius: 10px;
+  background: #cac4bb;
+}
+section .main-middle img {
+  margin-top: 10px;
+  margin-left: 20px;
+}

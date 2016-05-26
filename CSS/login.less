@@ -1,0 +1,724 @@
+	*{margin: 0;padding: 0;}
+	body{
+	  // background: linear-gradient(white,gray, white); 
+	  background:url(../IMG/body.png) no-repeat;
+	  font-family: 微软雅黑;
+	  .clear{
+			clear: both;
+		}
+	}
+	 // 头部
+	header{
+		font-size: 12px;
+		width:100%;
+		height:104px;
+		background:pink;
+		.header-nav{
+			height:28px;
+			background:white;
+			color:#93846f;
+			a{
+				color:#93846f;
+			}
+			a:hover{
+				color:#990033;
+			}
+			#country{
+				float:left;
+				height:28px;
+				width:130px;
+				// border:1px solid black;
+				margin-left: 200px;
+				padding-left: 10px;
+				position: relative;
+				line-height: 26px;
+					img{
+						position: absolute;
+						right:4px;
+						top:7px;
+					}
+					ul{
+						position:absolute;
+						border-radius: 5px;
+						left:0px;
+						z-index: 1000;
+						height:200px;
+						width:240px;
+						background:white;
+						border:1px solid white;
+						li{
+							a{
+								color:#93846f;
+							}
+							a:hover{
+								color:#990033;
+							}
+						}
+						
+					}
+			}
+			#language{
+				float:left;
+				height:28px;
+				width:80px;
+				padding-left: 10px;
+				margin-left: 10px;
+				// border:1px solid black;
+				position: relative;
+				line-height: 26px;
+					img{
+						position: absolute;
+						right:4px;
+						top:7px;
+					}
+					ul{
+						position:absolute;
+						border-radius: 5px;
+						left:0px;
+						z-index: 1001;
+						background:white;
+						height:30px;
+						width:90px;
+						border:1px solid white;
+					}
+			}
+			ul#header-list{
+				float:right;
+				margin-right: 270px;
+				margin-top: 5px;	
+				li{
+					float:left;
+					height:14px;
+					margin-top: 3px;
+					line-height: 14px;
+					padding-left: 10px;
+					padding-right: 5px;
+					border-right:1px solid gray;
+				}
+			}
+		}
+		.header-cart{
+			height: 76px;
+			background: #93846f;
+			a{
+				margin-left: 200px;
+				float:left;
+			}
+			#cart{
+				display:block;
+				margin-top: 2px;
+				margin-left: 470px;
+				float:left;
+				height:70px;
+				width:240px;
+				border-radius: 10px;
+				border:1px solid white;
+				position:relative;
+				img{
+					margin-top: 4px;
+					margin-left: 4px;
+				}
+				p{
+					margin-left: 180px;
+					color:white;
+				}
+				ul{
+					position:absolute;
+					top:45px;
+					left:20px;
+					height:18px;
+					width:200px;
+					overflow:hidden;
+					li{
+						position:absolute;
+						cursor: pointer;
+						color:#dabf9e;
+						top:18px;
+						height:15px;
+						width:150px;
+						background:#93846f;
+						// background:black;
+					}
+				}
+
+			}
+			#cart:hover{
+					background:#9f927f;
+			}
+		}
+
+	}
+	// 主体
+	section{
+		margin-left: 240px;
+		#title-8th{
+			height:40px;
+			width:950px;
+			background:#b61000;
+			text-align: center;
+			line-height: 40px;
+			a{
+				color:yellow;
+				font-size: 20px;
+
+			}
+		}
+		nav{
+			height:40px;
+			width:950px;
+			background:#b8afa3;
+			ul{
+				li{
+					float:left;
+					height:40px;
+					width:58px;
+					padding-left: 10px;
+					margin-left: 7px;
+				}
+				li:first-child{
+					a{
+						display:block;
+						height:30px;
+						width:56px;
+						background-image: url(../IMG/COSME-DE.COM/1_skincare.png);
+					}
+					a:hover{
+						background-image: url(../IMG/COSME-DE.COM/1_skincare_o.png);
+					}
+				}
+				li:nth-child(2){
+					a{
+						display:block;
+						height:30px;
+						width:60px;
+						background-image: url(../IMG/COSME-DE.COM/2_makeup.png);
+					}
+					a:hover{
+						background-image: url(../IMG/COSME-DE.COM/2_makeup_o.png);
+					}
+				}
+				li:nth-child(3){
+					a{
+						display:block;
+						height:30px;
+						width:60px;
+						background-image: url(../IMG/COSME-DE.COM/3_fragrance.png);
+					}
+					a:hover{
+						background-image: url(../IMG/COSME-DE.COM/3_fragrance_o.png);
+					}
+				}
+				li:nth-child(4){
+					a{
+						display:block;
+						height:30px;
+						width:60px;
+						background-image: url(../IMG/COSME-DE.COM/4_personal.png);
+					}
+					a:hover{
+						background-image: url(../IMG/COSME-DE.COM/4_personal_o.png);
+					}
+				}
+				li:nth-child(5){
+					a{
+						display:block;
+						height:30px;
+						width:60px;
+						background-image: url(../IMG/COSME-DE.COM/9_mother.png);
+					}
+					a:hover{
+						background-image: url(../IMG/COSME-DE.COM/9_mother_o.png);
+					}
+				}
+				li:nth-child(6){
+					a{
+						display:block;
+						height:30px;
+						width:60px;
+						background-image: url(../IMG/COSME-DE.COM/5_men.png);
+					}
+					a:hover{
+						background-image: url(../IMG/COSME-DE.COM/5_men_o.png);
+					}
+				}
+				li:nth-child(7){
+					a{
+						display:block;
+						height:30px;
+						width:60px;
+						background-image: url(../IMG/COSME-DE.COM/6_gift.png);
+					}
+					a:hover{
+						background-image: url(../IMG/COSME-DE.COM/6_gift_o.png);
+					}
+				}
+				li:nth-child(8){
+					a{
+						display:block;
+						height:30px;
+						width:60px;
+						background-image: url(../IMG/COSME-DE.COM/8_supplement.png);
+					}
+					a:hover{
+						background-image: url(../IMG/COSME-DE.COM/8_supplement_o.png);
+					}
+				}
+				li:nth-child(9){
+					a{
+						display:block;
+						height:30px;
+						width:60px;
+						background-image: url(../IMG/COSME-DE.COM/7_natural.png);
+					}
+					a:hover{
+						background-image: url(../IMG/COSME-DE.COM/7_natural_o.png);
+					}
+				}
+				li:nth-child(10){
+					a{
+						display:block;
+						height:30px;
+						width:60px;
+						background-image: url(../IMG/COSME-DE.COM/10_clearance.png);
+					}
+					a:hover{
+						background-image: url(../IMG/COSME-DE.COM/10_clearance_o.png);
+					}
+				}
+				li:nth-child(11){
+					a{
+						display:block;
+						height:30px;
+						width:60px;
+						background-image: url(../IMG/COSME-DE.COM/11_new.png);
+					}
+					a:hover{
+						background-image: url(../IMG/COSME-DE.COM/11_new_o.png);
+					}
+				}
+				li:last-child{
+					a{
+						display:block;
+						height:30px;
+						width:60px;
+						background-image: url(../IMG/COSME-DE.COM/12_weekly.png);
+					}
+					a:hover{
+						background-image: url(../IMG/COSME-DE.COM/12_weekly_o.png);
+					}
+				}
+			}
+		}
+		.main-top{
+				width: 950px;
+				height: 1460px;
+				background: linear-gradient(#d6d3ce 10%, white 20%); 
+				.search-product{
+					position:relative;
+					color:#af8e7e;
+					height:30px;
+					padding-top: 4px;
+					input[type="search"]{
+						width:204px;
+						height:21px;
+						margin-left: 18px;
+						font-size: 12px;
+					}
+					select{
+						width:200px;
+						height:21px;
+						color:#af8e7e;
+							font-size: 12px;
+						option{
+							color:#af8e7e;
+							font-size: 12px;
+						}
+					}
+					input[type="submit"]{
+						width:45px;
+						height:21px;
+						cursor:pointer;
+						border:none;
+						position:absolute;
+						background-image: url(../IMG/COSME-DE.COM/search_button_01.gif);
+					}
+					input[type="submit"]:hover{
+						background-image: url(../IMG/COSME-DE.COM/search_button_02.gif);
+					}
+					a{
+						color:#af8e7e;
+						display:inline-block;
+						margin-left: 10px;
+						// position:absolute;
+					}
+					a:hover{
+						color:#ab355a;
+					}
+					.a1{
+						margin-left: 55px;
+						padding-right: 10px;
+						height:15px;
+					}
+					i{
+						display:inline-block;
+						cursor:pointer;
+						position:absolute;
+						height:30px;
+						width:160px;
+						right:10px;
+						top:3px;
+						background-image: url(../IMG/COSME-DE.COM/promotion_new.gif);
+					}
+				}
+				p{
+					padding-left: 20px;
+					padding-bottom: 5px;
+					font-size: 12px;
+					a{
+						margin-left: 10px;
+						color: #666;
+					}
+					a:hover{
+						color:#990033;
+					}
+				}
+				aside{
+					float:left;
+					height:600px;
+					width:190px;
+					// border:1px solid black;
+					padding-left: 20px;
+					padding-top: 20px;
+					h1{
+						font-size: 18px;
+						font-weight: 500;
+						margin-bottom: 10px;
+						// margin-left: 20px;
+					}
+					ul{
+						li{
+							// border:1px solid black;
+							height:28px;
+							line-height: 28px;
+							a{
+								font-size: 12px;
+								color:#93846f-40%;
+							}
+							a:hover{
+								color:#990033;
+							}
+						}
+					}
+				}
+				.main-inner{
+					float:left;
+					width:720px;
+					height:1420px;
+					// border:1px solid black;
+					border-radius: 10px;
+					box-shadow:0 0 10px gray;
+					#frm1{
+						float:left;
+						fieldset{
+							width:300px;
+							height:600px;
+							border:none;
+							legend{
+								margin-left: 30px;
+							}
+							p{
+								input[type="text"]{
+									margin-left: 50px;
+									font-size: 12px;
+									font-family: 微软雅黑;
+									width:180px;
+								}
+								input[type="password"]{
+									margin-left: 50px;
+									font-family: 微软雅黑;
+									font-size: 12px;
+									width:180px;
+								}
+							}
+							a{
+								margin-left: 100px;
+								display:block;
+							}
+							input[type="submit"]{
+								display:block;
+								margin-left: 100px;
+								margin-top: 20px;
+								margin-bottom: 40px;
+								height:24px;
+								width:80px;
+								border:none;
+								// border:1px solid black;
+								background: url(../IMG/login/login_now_01.gif) no-repeat ;
+								cursor:pointer;
+							}
+							input[type="submit"]:hover{
+								background: url(../IMG/login/login_now_02.gif) no-repeat ;
+							}
+							#btn-ali{
+								height:28px;
+								width:118px;
+								margin-left: 100px;
+								margin-top: 5px;
+								border:none;
+								background:url(../IMG/login/alipay_115x25.png) no-repeat;
+							}
+							#btn-pay{
+								height:28px;
+								width:118px;
+								margin-left: 100px;
+								margin-top: 3px;
+								border:none;
+								background:url(../IMG/login/paypal_login_gb.png) no-repeat;
+							}
+							.discount-title{
+								font-size: 12px;
+								// border:1px solid black;
+								background:#93846f+90%;
+								margin-top: 20px;
+								margin-left: 20px;
+								width:240px;
+								height:100px;
+								h3{
+									font-weight: 700;
+									padding: 5px;
+								}
+								ul{
+									// border:1px solid black;
+									li{
+										// border:1px solid black;
+										margin-left:5px;
+										width:200px;
+										list-style: disc;
+										margin-left: 20px;
+										a{
+											// border:1px solid black;
+											margin-left: 0px;
+											color:#93846f;
+										}
+									}
+								}
+							}
+							img{
+								margin-left: 30px;
+							}
+						}
+					}
+					.regist{
+						width:410px;
+						height:1200px;
+						border-left:1px dashed gray;
+						float:left;
+						overflow:hidden;
+						#frm2{
+							float:left;
+							fieldset{
+								width:400px;
+								height:1200px;
+								border:none;
+								legend{
+									margin-left: 10px;
+								}
+								table{
+									margin-left: 10px;
+									width:360px;
+									// font-size: 13px;
+									tr{
+										height:30px;
+										margin-left: 10px;
+										td{
+											font-size: 12px;
+											select{
+												font-size: 12px;
+												color:#93846f;
+											}
+										}
+									}
+								}
+								p{
+									width:340px;
+								}
+							}
+						}
+					}
+					
+				}
+		}
+		.main-bottom{
+			height:170px;
+			width:914px;
+			margin-left: 20px;
+			// border:1px solid black;
+			margin-top: 40px;
+			.last-bottom{
+				margin-top: 20px;
+				font-size: 12px;
+				.bottom-list{
+					height:100px;
+					border-top:1px dashed gray;
+					border-bottom: 1px dashed gray;
+					ul{
+						float:left;
+						padding-top: 10px;
+						margin-left: 50px;
+						li{
+							a{
+								color:#93846f;
+							}
+							a:hover{
+								color:#991848;
+							}
+						}
+					}
+				}
+			}
+			.bottom-email{
+				margin-top: 10px;
+				padding-bottom: 10px;
+				border-bottom:1px dashed gray;
+				position:relative;
+				p.error-title{
+					display:none;
+					margin-left: 200px;
+				}
+				i{
+					font-style: normal;
+					font-size: 12px;
+					margin-left: 200px;
+					b{
+						font-size: 13px;
+						margin-right: 3px;
+					}
+				}
+				p.input-email{
+					input[type="email"]{
+						width:200px;
+						margin-left: 10px;
+						margin-top: 2px;
+					}
+					input[type="button"]{
+						background:url(../IMG/COSME-DE.COM/login_button_02.gif);
+						width: 18px;
+						height:18px;
+						// border:1px solid black;
+						border:none;
+						position:absolute;
+						top:3px;
+						left:735px;
+					}
+				}
+			}
+		}
+	}
+
+
+		//footer
+	footer{
+		width:900px;
+		height:280px;
+		margin-left: 220px;
+		// border:1px solid black;
+		padding-left: 200px;
+		i{
+			display:inline-block;
+			// border:1px solid black;
+			img:first-child{
+				margin-bottom: 15px;
+			}
+			img:nth-child(2){
+				margin-bottom: 15px;
+			}
+			img:nth-child(3){
+				margin-bottom: 5px;
+			}
+			img:last-child{
+				margin-bottom: 15px;
+			}
+		}
+		b{
+			display:inline-block;
+			border-left:1px solid gray;
+			position:relative;
+			height:110px;
+			width:140px;
+			top: -70px;
+			padding-left: 20px;
+			margin-left: 20px;
+			i{
+				font-style: normal;
+				font-weight: 400;
+				font-size: 13px;
+			}
+			img{
+				position:absolute;
+				bottom:5px;
+				left:20px;
+			}
+		}
+		div{
+			// border:1px solid black;
+			margin-top: -50px;
+			margin-left: -100px;
+			width:800px;
+			text-align: center;
+			font-size: 12px;
+		}
+	}
+		#footer-fixed{
+			position: fixed;
+			bottom: 0px; 
+			width: 100%;
+			height: 30px;
+			background: #93846f;
+			color:white;
+			font-weight: 700; 
+			#time{
+				line-height: 30px;
+				font-size: 13px;
+				margin-left: 10px;
+				letter-spacing: 1px;
+			}
+			b{
+				font-size: 13px;
+				margin-left:3px; 
+			}
+			div{
+				float:right;
+			}
+			.discount{
+				span{
+						display:inline-block;
+						height:20px;
+						font-size: 12px;
+						padding-right: 5px;
+						line-height: 30px;
+						// border:1px solid black;
+					}
+				a{
+					padding-left: 5px;
+					color:white;
+					font-size: 12px;
+					line-height: 30px;
+				}
+			}
+			.footer-cart{
+				margin-top: 5px;
+				border-radius: 5px;
+				padding-right: 3px;
+				float:right;
+				background: url(../IMG/COSME-DE.COM/shopping_cart_h.gif) no-repeat left top;
+				height: 20px;
+				width: 250px;
+				border:1px solid white;
+				margin-right: 10px;
+				margin-left: 20px;
+				font-size: 12px;
+				p{
+					float:right;
+				}
+			}
+		}
